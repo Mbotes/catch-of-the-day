@@ -7,10 +7,11 @@ import Inventory from './Inventory';
 
 class App extends React.Component {
     render () {
+        console.log(this);
         return (
             <div className="catch-of-the-day">
                 <div className="menu">
-                    <Header />
+                    <Header tagline="This is pretty cool"/>
                 </div>
                 <Order />
                 <Inventory />
